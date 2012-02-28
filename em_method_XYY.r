@@ -20,13 +20,6 @@ library(MASS)
 source("correg.R")
 
 
-
-#y1 = read.csv("adipose.matrix_ml.csv", header=T)
-#y2 = read.csv("hypo.matrix_ml.csv", header=T)
-#y3 = read.csv("liver.matrix_ml.csv", header=T)
-#y4 = read.csv("muscle.matrix_ml.csv", header=T)
-
-
 y1 <- read.csv("y1.csv", header=T)
 y2 <- read.csv("y2.csv", header=T)
 y3 <- read.csv("y3.csv", header=T)
